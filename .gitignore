@@ -2,3 +2,4 @@
 node_modules
 
 nano.exe.stackdump
+lerna-debug.log

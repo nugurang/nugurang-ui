@@ -1,9 +1,7 @@
 {
   "name": "nugurang-ui",
-  "version": "0.0.0",
   "main": "index.js",
   "repository": "https://github.com/nugurang/nugurang-ui.git",
-  "author": "Kyeonghwan Son <snapperbay4453@gmail.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -20,7 +18,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "cm": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "version:patch": "lerna version patch",
+    "version:minor": "lerna version minor --conventional-commits",
+    "version:major": "lerna version major --conventional-commits"
   },
   "config": {
     "commitizen": {
